@@ -956,6 +956,7 @@ class weiboApi
          * 
          * 
          */
+        $picUrl = 'http://login.sina.com.cn/cgi/pin.php?r='.mt_rand(10000000, 99999999).'&s=0&p='.$pcid;//图片地址
         return 'vcode';
     }
 }
